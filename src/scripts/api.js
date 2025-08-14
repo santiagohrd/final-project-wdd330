@@ -1,4 +1,4 @@
-const API_URL = "https://mocki.io/v1/8b7f80d6-ce5c-42c2-a1da-0cbd4ec506d6";
+const API_URL = "https://mocki.io/v1/7d8ce78a-042b-465e-9c65-32962bc01a66";
 
 export async function obtenerAlojamientos() {
   try {
