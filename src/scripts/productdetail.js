@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
 
         if (alojamiento.location) {
-          const apiKey = "pk.3e6d5ff1e9eb0049ad65a96ca262f18f";
+          const apiKey = "pk.5a9b5a0a478ae8e10263dbb977b591d9"; 
           const url = `https://us1.locationiq.com/v1/search?key=${apiKey}&q=${encodeURIComponent(
             alojamiento.location
           )}&format=json`;
