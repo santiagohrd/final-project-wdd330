@@ -1,9 +1,12 @@
 {
   "name": "final-project-wdd330",
-  "version": "1.0.0",
+  "version": "1.0.0", 
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "vite build --emptyOutDir",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +14,8 @@
   "description": "",
   "dependencies": {
     "tailwindcss": "^4.1.8"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
   }
 }
